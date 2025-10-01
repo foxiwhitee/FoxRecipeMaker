@@ -1,0 +1,38 @@
+
+.addIntegration(modid, file)
+
+.addBlock(integration, name, color, color top)
+
+.addGui(name, width, height, buttonX, buttonY)
+.addGui(name, width, height, buttonX, buttonY, arrowX, arrowY)
+
+.addCheckBox(name, id, x, y, default, string)
+.addSlider(name, id, x, y, width, height, prefix, suf, min, max, default)
+
+.addContainer(name, [playerInv]([x, y])(:decorate), <outSLot>(<x, y>)(:big:decorate), (slots)(<slot>(id, x, y)))
+
+.addOffset(name, x, y)
+
+.addPattern(string)
+
+.addImport(integration, "string")
+
+// pattern
+
+<out> - слот виходу
+<slot1> - слот 1
+<checkbox1> - чекбокс 1
+<slider1> - слайдер 1
+Якщо айді чекбокса -2 то це Ore
+<slotX>.stack - кількість
+<slotX>.name - імя, .lower - зменшети регістр, .upper - збільшити регістр
+
+(якщо) ? (то) : (інакше)
+
+~~ - в середені них логіка
+"mods.botania.ManaInfusion.~<checkbox0> ? \"addInfusion\" : <checkbox1> ? \"addAlchemy\" : <checkbox2> ? \"addConjuration\" : \"\"~(<out>, <slot0>, <slider1>);"
+
+*(символ) число-число (символ)* - слоти через кому, null ігнориться
+якщо ** то null не ігнорить
+
+<slot>.tag("key").list(0).tag("key", "key", 'format') - працюємо з тегом, tag - отримуємо теги скільки хочемо, в '' формат який є необовязковим (формат як в стрінгаї через %s), list - беремо відповідно елемент зі списку

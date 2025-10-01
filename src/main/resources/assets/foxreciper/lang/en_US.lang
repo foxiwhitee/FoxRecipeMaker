@@ -1,0 +1,17 @@
+itemGroup.FoxRecipeMaker=FoxRecipeMaker
+
+tile.ReciperVanilla.name=[Vanilla] Crafting Table
+
+
+tile.RecipeTweaker.ManaPool.name=[Botania] Mana Pool Recipe Maker
+tile.RecipeTweaker.PetalApothecary.name=[Botania] Petal Apothecary Recipe Maker
+tile.RecipeTweaker.PureDaise.name=[Botania] Pure Daisy Recipe Maker
+tile.RecipeTweaker.RuneAltar.name=[Botania] Rune Altar Recipe Maker
+
+tile.RecipeTweaker.InductionSmelter.name=[ThermalExpansion] Induction Smelter Recipe Maker
+tile.RecipeTweaker.Compressor.name=[IndustrialCraft2] Compressor Recipe Maker
+tile.RecipeTweaker.AlchemicalChemistry.name=[BloodMagic] Alchemical Chemistry Recipe Maker
+tile.RecipeTweaker.BloodOrbRecipes.name=[BloodMagic] Blood Orb Recipe Maker
+tile.RecipeTweaker.BloodAltar.name=[BloodMagic] Blood Altar Recipe Maker
+
+item.MagicBook.name=Magic Book
